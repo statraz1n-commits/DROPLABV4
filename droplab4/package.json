@@ -1,0 +1,16 @@
+{
+  "name": "droplab-cs2-simulator",
+  "version": "4.0.0",
+  "description": "CS2 graphite case opening, coin rewards and multi-skin upgrade simulator with Steam OpenID and virtual credits",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check catalog.js && node --check public/app.js",
+    "test": "node --test tests/*.mjs"
+  }
+}
